@@ -8,10 +8,29 @@ ul{
 }
 
 .my_width{
-    width: 75%;
+    width: 70%;
 }
 
+aside{
+    width:70px;
+    height:100vh;
+    background-color: #142A40;
+}
 
+section{
+    width: calc(100vw - 70px);
+    height: 100vh;
+    overflow: scroll;
+}
+
+.main-nav{
+    height: 100px;
+    width: calc(100vw - 70px);
+    background-color: #1D72E8;
+}
+ .box{
+    width: 100%;
+ }
 
 
 
@@ -25,4 +44,15 @@ ul{
     .w-lg-logo{
         width: 100%;
     }
+    aside{
+        width:150px;
+    }
+    section{
+        width: calc(100vw - 150px);
+    }
+    .main-nav{
+        height: 100px;
+        width: calc(100vw - 150px);
+    }
+    
 }
