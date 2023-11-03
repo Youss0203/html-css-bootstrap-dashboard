@@ -1,0 +1,28 @@
+
+header{
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.my_width{
+    width: 75%;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+    .my_width{
+        width: 100%;
+    }
+
+    .w-lg-logo{
+        width: 100%;
+    }
+}
