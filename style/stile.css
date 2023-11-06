@@ -55,7 +55,17 @@ section{
     border:none;
     border-radius: 2rem;
 }
+.my_size{
+    font-size:13px
+}
 
+.my_img-width{
+    width: 29px;
+}
+
+.my_font-size{
+    font-size: 10px;
+}
 
 @media screen and (min-width:992px){
     .my_width{
