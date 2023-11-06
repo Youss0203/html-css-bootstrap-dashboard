@@ -13,7 +13,6 @@ ul{
 
 aside{
     width:70px;
-    height:100vh;
     background-color: #142A40;
 }
 
@@ -29,10 +28,24 @@ section{
     background-color: #1D72E8;
 }
 
- 
+ .my_nav-height{
+    height: 100%;
+ }
 
+ .my_ul-height{
+    height: 90%;
+ }
 
+ .my_padding-left{
+    padding-left:1rem;
+ }
 
+.fa-chart-simple{
+    font-size:18px;
+}
+.fa-signal{
+    font-size: 14px;
+}
 
 
 @media screen and (min-width:992px){

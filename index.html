@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./img/mobile-logo.png" alt="Logo" width="30" height="24"
@@ -25,7 +25,8 @@
                         class="d-inline-block align-text-top d-lg-block d-none w-lg-logo">
                 </a>
                 <form class="d-flex my_width " role="search">
-                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control " type="search" placeholder="Prova a cercare lezioni di laravel"
+                        aria-label="Search">
                 </form>
                 <ul class="d-flex m-0">
                     <li><i class="fa-solid fa-list px-2 d-none d-lg-block"></i></li>
@@ -37,14 +38,33 @@
         </nav>
     </header>
     <main class="d-flex">
-        <aside></aside>
+        <aside>
+            <div class="justify-content-between my_nav-height py-3">
+                <ul class="nav flex-column my_ul-height">
+                    <li class="nav-item d-flex align-items-center p-0 mb-3 mb-lg-0">
+                        <i class="fa-solid fa-house my_padding-left text-white"></i><a class="nav-link text-white d-none d-lg-block" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center p-0 mb-3 mb-lg-0">
+                        <i class="fa-solid fa-chart-simple  text-white my_padding-left "></i><a class="nav-link text-white d-none d-lg-block" href="#">Stats</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center p-0">
+                        <i class="fa-solid fa-signal my_padding-left text-white"></i><a class="nav-link text-white d-none d-lg-block" href="#">Signals</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item d-flex align-items-center p-0">
+                        <i class="fa-solid fa-gear my_padding-left text-white"></i><a class="nav-link active text-white d-none d-lg-block" aria-current="page" href="#"> Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
         <section>
             <div class="main-nav mb-5">
                 <div class="row">
-                    <div class="col-12 col-lg-4"></div>
-                    <div class="col-12 col-lg-4"></div>
-                    <div class="col-12 col-lg-4"></div>
-                    <div class="col-12 col-lg-4"></div>
+                    <div class="col-12 col-lg-6">c</div>
+                    <div class="col-12 col-lg-3">v</div>
+                    <div class="col-12 col-lg-3">n</div>
+
                 </div>
             </div>
 
@@ -79,39 +99,66 @@
                                     <h1 class="text-uppercase">f.a.q.</h1>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><div class="accordion accordion-flush" id="accordionFlushExample">
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                Come aggiungere un nuovo studente?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                          </div>
-                                        </div></li>
-                                    <li class="list-group-item"><div class="accordion accordion-flush" id="accordionFlushExample">
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                Come posso accedere alle informazioni del mio account?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                          </div>
-                                        </div></li>
-                                    <li class="list-group-item"><div class="accordion accordion-flush" id="accordionFlushExample">
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                              Posso usare questa dashboard da mobile?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                          </div>
-                                        </div></li>
+                                    <li class="list-group-item">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Come aggiungere un nuovo studente?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the first item's
+                                                        accordion body.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Come posso accedere alle informazioni del mio account?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the first item's
+                                                        accordion body.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Posso usare questa dashboard da mobile?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code> class. This is the first item's
+                                                        accordion body.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
