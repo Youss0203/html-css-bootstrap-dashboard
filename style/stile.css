@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 header{
     width: 100vw;
 }
@@ -23,7 +27,6 @@ section{
 }
 
 .main-nav{
-    height: 100px;
     width: calc(100vw - 70px);
     background-color: #1D72E8;
 }
@@ -45,6 +48,12 @@ section{
 }
 .fa-signal{
     font-size: 14px;
+}
+
+.my_btn{
+    background-color:#165bba;
+    border:none;
+    border-radius: 2rem;
 }
 
 
