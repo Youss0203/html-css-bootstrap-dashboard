@@ -77,12 +77,13 @@ section {
     padding-top: .5rem;
 }
 
-.my_position-a{
-    position: absolute;
-    top:100%;
-    right:0;
+#my_position-a{
+    left:-113px;
 }
 
+.my_hover:hover{
+    background-color: #dbdcdc;
+}
 
 
 
