@@ -34,10 +34,24 @@
                         aria-label="Search">
                 </form>
                 <ul class="d-flex m-0">
-                    <li><i class="fa-solid fa-list px-2 d-none d-lg-block"></i></li>
-                    <li><i class="fa-solid fa-circle-question px-2 d-none d-lg-block"></i></li>
-                    <li><i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-block"></i></li>
-                    <li><i class="fa-solid fa-bell px-2 text-warning d-lg-block"></i></li>
+                    <li><i class="fa-solid fa-list px-2 d-none d-lg-block my_pt"></i></li>
+                    <li><i class="fa-solid fa-circle-question px-2 d-none d-lg-block my_pt"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-block my_pt"></i></li>
+                    <div class="dropdown">
+                        <button class="btn  my_bg border-0 d-lg-block" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-bell px-2 text-warning"></i>
+                        </button>
+                        <ul class="dropdown-menu  dropdown-menu my_position-a">
+                            <li><a class="dropdown-item active" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -152,17 +166,17 @@
                                     </div>
                                     <div class="input-group mb-3">
                                         <input type="file" class="form-control" id="inputGroupFile02">
-                                      </div>
-                                      <div class="form-check mb-3">
+                                    </div>
+                                    <div class="form-check mb-3">
                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                         <label class="form-check-label" for="flexCheckDefault">
-                                          Seleziona per proseguire
+                                            Seleziona per proseguire
                                         </label>
-                                      </div>
-                                      <div class="d-flex">
+                                    </div>
+                                    <div class="d-flex">
                                         <button class="btn btn-primary">Salva</button>
                                         <button class="btn btn-warning mx-2">Svuota</button>
-                                      </div>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -175,7 +189,7 @@
 
 
 
-            <div class="main-card px-3">
+            <div class="main-card px-3 container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <div class="box mb-4">
@@ -257,10 +271,12 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col ">
-                                                        <p class="fw-normal mb-0 text-center d-none d-md-table-cell">Data inzio</p>
+                                                        <p class="fw-normal mb-0 text-center d-none d-md-table-cell">
+                                                            Data inzio</p>
                                                     </th>
                                                     <th scope="col" class="d-none d-md-table-cell">
-                                                        <p class="fw-normal mb-0 text-center d-none d-md-table-cell">ROI</p>
+                                                        <p class="fw-normal mb-0 text-center d-none d-md-table-cell">ROI
+                                                        </p>
                                                     </th>
                                                     <th scope="col ">
                                                         <p class="fw-normal mb-0 text-cente">Stato</p>
@@ -273,7 +289,8 @@
                                             <tbody>
                                                 <tr>
                                                     <td scope="row">
-                                                        <p class="mb-0 fw-normal d-none d-md-table-cell ">15 Feb 2021</p>
+                                                        <p class="mb-0 fw-normal d-none d-md-table-cell ">15 Feb 2021
+                                                        </p>
                                                     </td>
                                                     <td class="d-none d-md-table-cell">20%</td>
                                                     <td><button type="button"
@@ -304,7 +321,8 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <p class="mb-0 fw-normal d-none d-md-table-cell ">17 Feb 2021</p>
+                                                        <p class="mb-0 fw-normal d-none d-md-table-cell ">17 Feb 2021
+                                                        </p>
                                                     </td>
                                                     <td class="d-none d-md-table-cell">20%</td>
                                                     <td><button type="button"

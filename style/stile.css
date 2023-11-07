@@ -1,89 +1,112 @@
-
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     width: 100vw;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.my_width{
+.my_width {
     width: 70%;
 }
 
-aside{
-    width:70px;
+aside {
+    width: 70px;
     background-color: #142A40;
 }
 
-section{
+section {
     width: calc(100vw - 70px);
     height: 100vh;
     overflow: scroll;
 }
 
-.main-nav{
+.main-nav {
     width: calc(100vw - 70px);
     background-color: #1D72E8;
 }
 
- .my_nav-height{
+.my_nav-height {
     height: 100%;
- }
-
- .my_ul-height{
-    height: 90%;
- }
-
- .my_padding-left{
-    padding-left:1rem;
- }
-
-.fa-chart-simple{
-    font-size:18px;
 }
-.fa-signal{
+
+.my_ul-height {
+    height: 90%;
+}
+
+.my_padding-left {
+    padding-left: 1rem;
+}
+
+.fa-chart-simple {
+    font-size: 18px;
+}
+
+.fa-signal {
     font-size: 14px;
 }
 
-.my_btn{
-    background-color:#165bba;
-    border:none;
+.my_btn {
+    background-color: #165bba;
+    border: none;
     border-radius: 2rem;
 }
-.my_size{
-    font-size:13px
+
+.my_size {
+    font-size: 13px
 }
 
-.my_img-width{
+.my_img-width {
     width: 29px;
 }
 
-.my_font-size{
+.my_font-size {
     font-size: 10px;
 }
 
-@media screen and (min-width:992px){
-    .my_width{
+.my_bg {
+    background-color: #f8f9fa;
+}
+
+.my_pt {
+    padding-top: .5rem;
+}
+
+.my_position-a{
+    position: absolute;
+    top:100%;
+    right:0;
+}
+
+
+
+
+
+@media screen and (min-width:992px) {
+    .my_width {
         width: 100%;
     }
 
-    .w-lg-logo{
+    .w-lg-logo {
         width: 100%;
     }
-    aside{
-        width:150px;
+
+    aside {
+        width: 150px;
     }
-    section{
+
+    section {
         width: calc(100vw - 150px);
     }
-    .main-nav{
+
+    .main-nav {
         height: 100px;
         width: calc(100vw - 150px);
     }
-    
+
 }
